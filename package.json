@@ -1,0 +1,31 @@
+{
+  "name": "pimail",
+  "version": "0.0.1",
+  "description": "Pi Mailer",
+  "main": "pimail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmandic/pimail.git"
+  },
+  "keywords": [
+    "pimail"
+  ],
+  "author": "Vladimir Mandic <mandic00@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladmandic/pimail/issues"
+  },
+  "homepage": "https://github.com/vladmandic/pimail#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-json": "^2.1.1",
+    "imap": "^0.8.19",
+    "nodemailer": "^6.4.6"
+  }
+}
